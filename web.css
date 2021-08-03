@@ -1,0 +1,39 @@
+body {
+    background-color: violet;
+    font-family: 'Dancing Script' cursive;
+    font-size: 20px;
+    color: white;
+}
+header {
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+#logo {
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+}
+h1 {
+    text-align: center;
+}
+.colorli {
+    color: white;
+}
+.section {
+    background-color: rebeccapurple;
+    border-radius: 10px;
+}    
+.tmñimg {
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+}
+#footer {
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+#logodos {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
