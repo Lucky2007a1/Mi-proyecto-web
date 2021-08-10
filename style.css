@@ -1,0 +1,48 @@
+#tm-img {
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+}
+#body {
+    margin: 2px;
+    padding: 2px;
+    background-color: rgb(25, 140, 248);
+    font-family: 'Righteous', cursive;
+    color: whitesmoke
+}
+#header {
+    border-radius: 20px;
+    background-color: cornflowerblue;
+}
+#h-uno {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.p {
+   text-align: right;
+   margin: 10px;
+   padding: 10px;
+}
+#Trabajos {
+   text-align: justify;
+}
+li {
+    display: inline-block;
+    margin: 5px;
+}
+a {
+    background-color: palegreen;
+    padding: 5px;
+    transition: .5s;
+    border-radius: 5px;
+    text-decoration: none;
+    color: lightseagreen;
+}
+a:hover {
+    background-color: rgb(31, 226, 226);
+    border-radius: 5px;
+}
+.c {
+    text-align: center;
+}

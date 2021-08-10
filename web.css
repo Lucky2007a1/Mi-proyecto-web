@@ -37,3 +37,12 @@ h1 {
     height: 80px;
     border-radius: 10px;
 }
+a:hover {
+    background-color: rebeccapurple;
+    padding: 1px;
+    border-radius: 5px;
+    transition: .5s;
+}
+li {
+    display: inline-block;
+}
