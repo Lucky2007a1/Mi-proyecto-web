@@ -1,0 +1,130 @@
+#tm-img {
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+}
+#body {
+    margin: 2px;
+    padding: 2px;
+    background-color: rgb(25, 140, 248);
+    font-family: 'Righteous', cursive;
+    color: whitesmoke
+}
+#header {
+    border-radius: 20px;
+    background-color: cornflowerblue;
+}
+#h-uno {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.p {
+   text-align: right;
+   margin: 10px;
+   padding: 10px;
+}
+#Trabajos {
+   text-align: justify;
+}
+li {
+    display: inline-block;
+    margin: 5px;
+}
+a {
+    background-color: palegreen;
+    padding: 5px;
+    transition: .5s;
+    border-radius: 5px;
+    text-decoration: none;
+    color: lightseagreen;
+}
+a:hover {
+    background-color: rgb(31, 226, 226);
+    border-radius: 5px;
+}
+.c {
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .nav {
+      display: block;   
+      justify-content: center;
+      padding: 0px;
+      width: 100%;
+      height: auto;
+    }
+    .items-nav {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 0px;
+      margin-right: 0xp;
+      width: 80px;
+    }
+    .items-menu {
+      display: block;
+      justify-content: space-between;
+      text-align: center;
+    }
+    .item {
+      width: 90%;  
+      margin-bottom: 30px;
+      display: block;
+    }
+    .header {
+      padding: 0px;  
+      margin-bottom: 10px;
+      display: block;
+      justify-content: space-between;
+      align-content: flex-start;
+    }
+}
+@media screen and (min-width: 505px) {
+    .item {
+      width: 70%;
+    }
+    nav {
+      height: 120px;
+    }
+}
+@media screen and (min-width: 700px) {
+    .item {
+      width: 70%;
+    }
+    nav {
+      height: 75px;
+      justify-content: flex-start;  
+    }
+}
+@media screen and (min-width: 980px) {
+    .item {
+      width: 30%;  
+    }
+}
+@media screen and (min-width: 1040px) {
+    .class-marca {
+      margin-bottom: 10px;  
+    }
+    .class-header {
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .item {
+        width: 22%;
+    }
+    .class-header {
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    main {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
