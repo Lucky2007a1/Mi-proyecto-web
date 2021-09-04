@@ -1,0 +1,73 @@
+#h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #e686e9;
+    margin-left: -60px;
+}
+#bc {
+    background-color: #f8d1fc;
+}
+.bc2 {
+    background-color: #ff99ff;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ad4eb1;
+}
+#url1 {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    text-align: left;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: -15px;
+}
+#url2 {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: absolute;
+    margin-left: 90px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: -15px;
+}
+#bolsa {
+    width: 40px;
+    height: 40px;
+    margin-left: 200px;
+}
+#productos {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    color: #d765db;
+    margin-left: 10px;
+}
+.r {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 0px;
+    border-style: solid;
+    border-color: #d765db;
+}
+.n {
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #943b97;
+}
+.precio {
+    font-size: 30px;
+    margin-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #943b97;
+}
+.desc {
+    font-size: 30px;
+    margin-left: 5px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 20px;
+    color: #943b97;
+}

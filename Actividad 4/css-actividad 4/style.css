@@ -1,130 +1,577 @@
-#tm-img {
-    width: 400px;
-    height: 150px;
-    border-radius: 20px;
+.back-btn1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #1ba1e2;
+  border-radius: 50px;
+  margin-top: 450px;
+  margin-left: 780px;
 }
-#body {
-    margin: 2px;
-    padding: 2px;
-    background-color: rgb(25, 140, 248);
-    font-family: 'Righteous', cursive;
-    color: whitesmoke
+.back-btn2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #1ba1e2;
+  border-radius: 50px;
+  margin-top: 450px;
+  margin-left: 1240px;
+  margin-right: 630px;
 }
-#header {
-    border-radius: 20px;
-    background-color: cornflowerblue;
+.back-btn3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #1ba1e2;
+  border-radius: 50px;
+  margin-top: 580px;
+  margin-left: 1200px;
 }
-#h-uno {
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
+.back-btn4 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #1ba1e2;
+  border-radius: 50px;
+  margin-top: 580px;
+  margin-left: 820px;
 }
-.p {
-   text-align: right;
-   margin: 10px;
-   padding: 10px;
+.back-btn5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #1ba1e2;
+  border-radius: 50px;
+  margin-top: 680px;
+  margin-left: 1010px;
+  margin-right: 655px;
 }
-#Trabajos {
-   text-align: justify;
+#url1 {
+  font-size: 20px;
+  text-decoration: none;
+  color: #00ffff;
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-li {
-    display: inline-block;
-    margin: 5px;
+#url2 {
+  font-size: 20px;
+  text-decoration: none;
+  color: #00ffff;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-a {
-    background-color: palegreen;
-    padding: 5px;
-    transition: .5s;
-    border-radius: 5px;
+#url3 {
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-top: 20px;
+  padding: 3px;
+  color: #00ffff;
+  position: absolute;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#url4 {
+  font-size: 20px;
+  margin-top: 35px;
+  text-decoration: none;
+  position: absolute;
+  color: #00ffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 3px
+}
+#url5 {
+  font-size: 20px;
+  text-decoration: none;
+  color: #00ffff;
+  position: absolute;
+  margin-left: 4px;
+  margin-right: 200px;
+  margin-top: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+#bc {
+  background-color: #000000;
+}
+#indice {
+  color: white;
+  margin-top: 580px;
+  margin-left: 1010px;
+}
+.back-circle {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background-color: #0069d1;
+  border-radius: 400px;
+  margin-left: 760px;
+  margin-right: 425px;
+  margin-top: 200px;
+ }
+.back-circle2 {
+  width: 290px;
+  height: 290px;
+  background-color: #000000;
+  border-radius: 400px;
+  margin-top: -395px;
+  margin-left: 850px;
+}
+.github {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #000000;
+  margin-top: 160px;
+  margin-left: 1010px;
+}
+.url-gh {
+  color: white;
+  margin-left: 13px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 320px) {
+  .back-btn1 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 45px;
+    margin-left: 45px;
+    border-style: solid;
+    border-color: white;
+  }
+  .back-btn2 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 131px;
+    margin-left: 45px;
+    border-style: solid;
+    border-color: white;
+  }
+  .back-btn3 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 217px;
+    margin-left: 45px;
+    border-style: solid;
+    border-color: white;
+  }
+  .back-btn4 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 303px;
+    margin-left: 45px;
+    border-style: solid;
+    border-color: white;
+  }
+  .back-btn5 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 389px;
+    margin-left: 45px;
+    border-style: solid;
+    border-color: white;
+  }
+  #url1 {
     text-decoration: none;
-    color: lightseagreen;
+    color: #00ffff;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #url2 {
+    text-decoration: none;
+    color: #00ffff;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #url3 {
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 3px;
+    color: #00ffff;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #url4 {
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    color: #00ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25px
+  }
+  #url5 {
+    text-decoration: none;
+    color: #00ffff;
+    position: absolute;
+    margin-left: 28px;
+    font-size: 30px;
+    margin-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }  
+  #bc {
+    background-color: #000000;
+  }
+  #indice {
+    color: white;
+    margin-top: 0px;
+    margin-left: 85px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .github {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    background-color: #000000;
+    margin-top: 475px;
+    margin-left: 45px;
+  }
+  .url-gh {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-left: 43px;
+    margin-top: 25px;
+  }
+  .back-circle {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: #000000;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+   }
+  .back-circle2 {
+    width: 1px;
+    height: 1px;
+    background-color: #000000;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
 }
-a:hover {
-    background-color: rgb(31, 226, 226);
-    border-radius: 5px;
+@media only screen and (min-width: 480px and max-width 768px) {
+  .back-btn1 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 45px;
+    margin-left: 150px;
+    border-style: solid;
+    border-color: white;
+  }
+  .back-btn2 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 131px;
+    margin-left: 150px;
+    border-style: solid;
+    border-color: white;
+  }
+  .back-btn3 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 217px;
+    margin-left: 150px;
+    border-style: solid;
+    border-color: white;
+  }
+  .back-btn4 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 303px;
+    margin-left: 150px;
+    border-style: solid;
+    border-color: white;
+  }
+  .back-btn5 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 389px;
+    margin-left: 150px;
+    border-style: solid;
+    border-color: white;
+  }
+  #url1 {
+    text-decoration: none;
+    color: #00ffff;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #url2 {
+    text-decoration: none;
+    color: #00ffff;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #url3 {
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 3px;
+    color: #00ffff;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #url4 {
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    color: #00ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25px
+  }
+  #url5 {
+    text-decoration: none;
+    color: #00ffff;
+    position: absolute;
+    margin-left: 28px;
+    font-size: 30px;
+    margin-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }  
+  #bc {
+    background-color: #000000;
+  }
+  #indice {
+    color: white;
+    margin-top: 60px;
+    margin-left: 195px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .github {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    background-color: #000000;
+    margin-top: 475px;
+    margin-left: 150px;
+  }
+  #url-gt {
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 25px;
+  }
+  .back-circle {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: #000000;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+   }
+  .back-circle2 {
+    width: 1px;
+    height: 1px;
+    background-color: #000000;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
 }
-.c {
-    text-align: center;
-}
-@media screen and (max-width: 500px) {
-    .nav {
-      display: block;   
-      justify-content: center;
-      padding: 0px;
-      width: 100%;
-      height: auto;
-    }
-    .items-nav {
-      margin-top: 5px;
-      margin-bottom: 5px;
-      margin-left: 0px;
-      margin-right: 0xp;
-      width: 80px;
-    }
-    .items-menu {
-      display: block;
-      justify-content: space-between;
-      text-align: center;
-    }
-    .item {
-      width: 90%;  
-      margin-bottom: 30px;
-      display: block;
-    }
-    .header {
-      padding: 0px;  
-      margin-bottom: 10px;
-      display: block;
-      justify-content: space-between;
-      align-content: flex-start;
-    }
-}
-@media screen and (min-width: 505px) {
-    .item {
-      width: 70%;
-    }
-    nav {
-      height: 120px;
-    }
-}
-@media screen and (min-width: 700px) {
-    .item {
-      width: 70%;
-    }
-    nav {
-      height: 75px;
-      justify-content: flex-start;  
-    }
-}
-@media screen and (min-width: 980px) {
-    .item {
-      width: 30%;  
-    }
-}
-@media screen and (min-width: 1040px) {
-    .class-marca {
-      margin-bottom: 10px;  
-    }
-    .class-header {
-        display: block;
-        justify-content: space-between;
-        text-align: center;
-    }
-}
-@media screen and (min-width: 1200px) {
-    .item {
-        width: 22%;
-    }
-    .class-header {
-        padding-bottom: 0px;
-        padding-top: 0px;
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-    main {
-        padding-bottom: 20px;
-        padding-top: 20px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+@media only screen and (max-width: 768px) {
+  .back-btn1 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 45px;
+    margin-left: 150px;
+    border-style: solid;
+    border-color: white;
+  }
+  .back-btn2 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 131px;
+    margin-left: 150px;
+    border-style: solid;
+    border-color: white;
+  }
+  .back-btn3 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 217px;
+    margin-left: 150px;
+    border-style: solid;
+    border-color: white;
+  }
+  .back-btn4 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 303px;
+    margin-left: 150px;
+    border-style: solid;
+    border-color: white;
+  }
+  .back-btn5 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: #1ba1e2;
+    border-radius: 50px;
+    margin-top: 389px;
+    margin-left: 150px;
+    border-style: solid;
+    border-color: white;
+  }
+  #url1 {
+    text-decoration: none;
+    color: #00ffff;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #url2 {
+    text-decoration: none;
+    color: #00ffff;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #url3 {
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 3px;
+    color: #00ffff;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #url4 {
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    color: #00ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25px
+  }
+  #url5 {
+    text-decoration: none;
+    color: #00ffff;
+    position: absolute;
+    margin-left: 28px;
+    font-size: 30px;
+    margin-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }  
+  #bc {
+    background-color: #000000;
+  }
+  #indice {
+    color: white;
+    margin-top: 60px;
+    margin-left: 195px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .github {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    background-color: #000000;
+    margin-top: 475px;
+    margin-left: 150px;
+  }
+  .url-gt {
+    color: white;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 25px;
+  }
+  .back-circle {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: #000000;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+   }
+  .back-circle2 {
+    width: 1px;
+    height: 1px;
+    background-color: #000000;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
 }

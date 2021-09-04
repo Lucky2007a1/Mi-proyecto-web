@@ -1,0 +1,47 @@
+[
+    {
+        "precio": 280,
+        "id": 1,
+        "nombre": "Coordinado Shedron"
+    },
+    {
+        "precio": 280,
+        "id": 2,
+        "nombre": "Coordinado Rojo"
+    },
+    {
+        "precio": 280,
+        "id": 3,
+        "nombre": "Coordinado Café"
+    },
+    {
+        "precio": 450,
+        "id": 4,
+        "nombre": "Coordinado Beige"
+    },
+    {
+        "precio": 320,
+        "id": 5,
+        "nombre": "Pijama Seda y Encaje"
+    },
+    {
+        "precio": 300,
+        "id": 6,
+        "nombre": "Pijama de Pantalón"
+    },
+    {
+        "precio": 280,
+        "id": 7,
+        "nombre": "Coordinado Rosa Palo"
+    },
+    {
+        "precio": 280,
+        "id": 8,
+        "nombre": "Coordinado Negro"
+    },
+    {
+        "precio": 260,
+        "id": 9,
+        "nombre": "Pijama de Satín"
+    }
+]

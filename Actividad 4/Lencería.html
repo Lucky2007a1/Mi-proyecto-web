@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css-Actividad 4/Lencería.css">>
+<title>Anna Lencería</title>  
+</head>
+<body id="bc">
+<div>
+  <h1 id="h1">Anna Lencería</h1>
+ <section>
+ <div class="bc2">
+    <h2 id="productos">Productos:</h2>
+    <h3 class="n">Coordinado Shedron</h3>
+    <img class="r" src="imagenes ropa/Ropa01.jpg.jpeg" alt="Coordinado Shedron.">
+    <p class="precio">Precio: $280MXN</p>
+    <p class="desc">Coordinado de encaje unitalla.</p>
+ </div>
+ </section>
+ <section>
+ <div class="bc2">
+     <h3 class="n">Coordinado Rojo</h3>
+     <img class="r" src="imagenes ropa/Ropa02.jpg.jpeg" alt="Coordinado Rojo.">
+     <p class="precio">Precio: $280MXN</p>
+     <p class="desc">Coordinado de encaje unitalla.</p>
+       </div>
+</section>
+ <section>
+     <div class="bc2">
+         <h3 class="n">Coordinado Café</h3>
+         <img class="r" src="imagenes ropa/Ropa03.jpg.jpeg" alt="Coordinado Café.">
+         <p class="precio">Precio: $280MXN</p>
+         <p class="desc">Coordinado Unitalla de encaje.</p>
+       </div>
+ </section>
+    <section>
+        <div class="bc2">
+            <h3 class="n">BabyDoll Beige</h3>
+            <img class="r" src="imagenes ropa/Ropa04.jpg.jpeg" alt="BabyDoll Beige.">
+            <p class="precio">Precio: $450MXN</p>
+            <p class="desc">Coordinado de encaje talla L.</p>
+        </div>
+    </section>
+    <section>
+        <div class="bc2">
+            <h3 class="n">Pijama Seda y Encaje</h3>
+            <img class="r" src="imagenes ropa/Ropa05.jpg.jpeg" alt="Pijama Seda y Encaje.">
+            <p class="precio">Precio: $320MXN</p>
+            <p class="desc">Pijama de dos piezas Talla M.</p>
+          </div>
+    </section>
+    <section>
+        <div class="bc2">
+            <h3 class="n">Pijama de Pantalón</h3>
+            <img class="r" src="imagenes ropa/Ropa06.jpg.jpeg" alt="Pijama de Pantalón.">
+            <p class="precio">Precio: $300MXN</p>
+            <p class="desc">Pijama  de 2 piezas talla L..</p>
+          </div>
+    </section>
+    <section>
+        <div class="bc2">
+            <h3 class="n">Coordinado Rosa Palo</h3>
+            <img class="r" src="imagenes ropa/Ropa07.jpg.jpeg" alt="Coordinado Rosa Palo.">
+            <p class="precio">Precio: $280MXN</p>
+            <p class="desc">Coordinado de 2 piezas talla M.</p>
+          </div>
+    </section>
+    <section>
+        <div class="bc2">
+            <h3 class="n">Coordinado Negro</h3>
+            <img class="r" src="imagenes ropa/Ropa08.jpg.jpeg" alt="Coordinado Negro.">
+            <p class="precio">Precio: $280MXN</p>
+            <p class="desc">Coordinado de encaje y algodón talla M.</p>
+          </div>
+    </section>
+    <section>
+        <div class="bc2">
+            <h3 class="n">Pijama de Satín</h3>
+            <img class="r" src="imagenes ropa/Ropa09.jpg.jpeg" alt="Pijama de Satín.">
+            <p class="precio">Precio: $260MXN</p>
+            <p class="desc">ijama de 2 piezas Talla L.</p>
+          </div>
+    </section>
+        <div class="container">
+            <h1>Bolsa de compras</h1>
+            <hr>
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Item</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Acción</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody id="items"></tbody>
+                <tfoot>
+                  <tr id="footer">
+                    <th scope="row" colspan="5">Bolsa vacía - comience a comprar!</th>
+                  </tr>
+                </tfoot>
+              </table>
+
+            <div class="row" id="cards"></div>
+        </div>
+
+        <template id="template-footer">
+            <th scope="row" colspan="2">Total productos</th>
+            <td>10</td>
+            <td>
+                <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                    vaciar todo
+                </button>
+            </td>
+            <td class="font-weight-bold">$ <span>5000</span></td>
+        </template>
+        
+        <template id="template-carrito">
+          <tr>
+            <th scope="row">id</th>
+            <td>Café</td>
+            <td>1</td>
+            <td>
+                <button class="btn btn-info btn-sm">
+                    +
+                </button>
+                <button class="btn btn-danger btn-sm">
+                    -
+                </button>
+            </td>
+            <td>$ <span>500</span></td>
+          </tr>
+        </template>
+
+        <template id="template-card">
+            <div class="col-12 mb-2 col-md-4">
+              <div class="card">
+                  <img src="lencería.json" alt="" class="card-img-top">
+                <div class="card-body">
+                  <h5>Titulo</h5>
+                  <p>precio</p>
+                  <button class="btn btn-dark">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </template>
+
+            <script src="lencería.js"></script>
+</body>
+</html>
